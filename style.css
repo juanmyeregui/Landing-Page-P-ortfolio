@@ -1,0 +1,59 @@
+*{
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0px;
+}
+
+.header{
+    background-color: #264653;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: white;
+    
+}
+
+.logo{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0px 40px;
+    line-height: 80px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0px 10px;
+    line-height: 80px;
+}
+
+.nav-menu-link{
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover{
+    background-color: #a8dadc;
+    transition: 0.5s;
+}
