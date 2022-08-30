@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
     <header class="header">
       <nav class="nav">
-        <a href="#" class="logo nav-link">El Criollo</a>
+        <a href="#" class="logo nav-link">Taller El Criollo</a>
+        <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox"  id="toggle-menu">
 
         <ul class="nav-menu">
           <li class="nav-menu-item">
@@ -25,31 +34,26 @@
           <li class="nav-menu-item">
             <a href="#" class="nav-menu-link nav-link">Contacto</a>
           </li>
-
-          <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link">Ubicación</a>
-          </li>
-
-          <li class="nav-menu-item">
-            <a href="#" class="nav-menu-link nav-link">Preguntas Frecuentes</a>
-          </li>
+          
         </ul>
       </nav>
     </header>
     <main>
       <section>
         <div class="section-1">
-          <div>
+          <div class="presentacion">
             <h1 class="section-1-titulo">
               Un solo taller, todos los servicios
             </h1>
-            <h2 class="section-1-titulo2">1972-2022   50° ANIVERSARIO</h2>
+            <h2 class="section-1-titulo2">1972 / 2022  -  50° ANIVERSARIO</h2>
           </div>
+          <div>
           <img
             src="img/cromado.png.jpeg"
             alt="Foto de bombillas"
             class="img-cromado"
           />
+        </div>
         </div>
       </section>
 
@@ -62,6 +66,64 @@
           servicio y la atención personalizada hacia nuestros clientes.
         </p>
       </section>
+
+      <section>
+        <div class="ventajas">
+          <h1>Las ventajas de trabajar con nosotros</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit maiores, laudantium explicabo quas error animi suscipit quis saepe fuga iste doloribus provident repellendus, amet, ipsam doloremque molestias. Dolores, amet.</p>
+          
+        </div>
+
+        <div class="cards">
+          <div class="beneficio-1">
+            <i class="fa-solid fa-people-group"></i>
+
+            <h2>Atendido por sus dueños</h2>
+            <p>
+              Tercera generación de artenos especializados, desde 1972 el mejor sitio de cromado y pulido.
+            </p>
+          </div>
+
+          <div class="beneficio-2">
+            <i class="fa-solid fa-medal"></i>
+
+            <h2>50 años en el mercado</h2>
+            <p>Somos una empresa líder con gran experiencia en el mercado de la galvanotecnia.
+
+            </p>
+          </div>
+
+          <div class="beneficio-3">
+            <i class="fa-solid fa-handshake-simple"></i>
+            <h2>Atención personalizada</h2>
+            <p>
+              Acercate y recibí un presupuesto sin cargo realizado por nuestros
+              especialistas.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer>
+
+      <div class="footer">
+        <h2>Contacto</h2>
+        
+        <ul>
+          <li> <i class="fa-solid fa-location-dot"></i> Mansilla 5647, Wilde</li>
+          <li><i class="fa-solid fa-phone"></i> 1163980572/1157256165</li>
+          <li><i class="fa-solid fa-at"></i> tallerelcriollo@hotmail.com</li>
+          <li> <i class="fa-solid fa-calendar-days"></i> Lunes a Viernes de 08:00 a 16:00</li>
+        </ul>
+        <div class="footer-redes">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/GALVANOTEGNIA-EL-CRIOLLO-107410086026986/?ref=page_internal"><i class="fa-brands fa-facebook"></i></a>
+
+        </div>
+      </div>
+      
+    </footer>
   </body>
 </html>
