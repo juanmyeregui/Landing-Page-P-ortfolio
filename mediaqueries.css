@@ -102,19 +102,32 @@
     color: white;
   }
 
+  .section-1-titulo {
+    font-size: 35px;
+  }
+
+  .section-1-titulo2 {
+    margin-right: 40px;
+  }
+
   #toggle-menu:checked + .nav-menu {
     transform: translateX(0%);
     transition: all 0.4s ease-in;
   }
 
   .cards {
-    padding: 2px;
+    padding: 0;
     margin-bottom: 700px;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 100%;
   }
+
+  .cards i {
+    font-size: 22px;
+  }
+
   .cards h2 {
     font-size: 16px;
   }
@@ -129,7 +142,12 @@
   }
 
   .footer ul {
+    gap: 15px;
     text-align: center;
     width: 100%;
+  }
+
+  .footer i {
+    font-size: 30px;
   }
 }
